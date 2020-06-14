@@ -8,8 +8,8 @@ export default {
   bounds,
   teamColors: {
     "boccino": 'white',
-    "red":  tinycolor('red').toRgbString(),
-    "green": tinycolor('green').toRgbString(),
+    "red":  tinycolor('#ff2424').toRgbString(),
+    "green": tinycolor('#5af2b7').toRgbString(),
   },
   launchPos: new Victor(80,bounds.y-80)
 }

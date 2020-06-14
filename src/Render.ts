@@ -46,8 +46,8 @@ export default class Renderer {
 
     rgrd.addColorStop(0.1, tinycolor(body.color).toRgbString());
     rgrd.addColorStop(1, tinycolor(body.color).spin(50).darken(20).toRgbString());
-    lgrd.addColorStop(0,tinycolor(body.color).darken(100).setAlpha(0.7).toRgbString());
-    lgrd.addColorStop(1,tinycolor(body.color).lighten(100).setAlpha(0.7).toRgbString());
+    lgrd.addColorStop(0,tinycolor(body.color).darken(50).setAlpha(0.7).toRgbString());
+    lgrd.addColorStop(1,tinycolor(body.color).lighten(80).setAlpha(0.7).toRgbString());
 
     this.ctx.fillStyle=rgrd;
     this.ctx.beginPath()
